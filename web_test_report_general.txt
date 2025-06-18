@@ -1,0 +1,3209 @@
+--- Starting AI Web Test ---
+Timestamp: Fri May 23 13:42:03 2025
+Starting URL: https://books.toscrape.com/index.html
+Base Domain for Crawling: https://books.toscrape.com
+AI Analysis Prompt: 'i need the price details '
+Gemini Model Used: gemini-1.5-flash
+
+
+--- Testing Page 1: https://books.toscrape.com/index.html ---
+Screenshot saved: screenshots_general_test\page_1_index_html.png
+
+--- AI Content Analysis ---
+The provided HTML does not contain any price information.  It only shows a catalog of book categories.  To find the price details, you would need to follow the links to individual book pages within the `catalogue/category/...` paths.  The price will be present on those individual product pages, not this all-products overview.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 2: https://books.toscrape.com/catalogue/category/books_1/index.html ---
+Screenshot saved: screenshots_general_test\page_2_index_html.png
+
+--- AI Content Analysis ---
+The provided HTML does not contain any price information.  It only shows a list of book categories.  To find prices, you would need to look at the HTML of the individual book pages linked within this category list (e.g., `../books/travel_2/index.html`, `../books/mystery_3/index.html`, etc.).  The price details are not present in this navigation-level page.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books_1/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books_1/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 3: https://books.toscrape.com/catalogue/category/books/travel_2/index.html ---
+Screenshot saved: screenshots_general_test\page_3_index_html.png
+
+--- AI Content Analysis ---
+The provided HTML does not contain any pricing information.  It's a navigation menu for a book website, showing categories of books ("Travel", "Mystery", etc.), but no prices are listed for any of the books within those categories.  To find price details, you would need to look at the individual book pages linked from this navigation.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/travel_2/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/travel_2/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 4: https://books.toscrape.com/catalogue/category/books/mystery_3/index.html ---
+Screenshot saved: screenshots_general_test\page_4_index_html.png
+
+--- AI Content Analysis ---
+This HTML snippet does not contain any price information.  It's a navigation menu for a bookstore website showing categories of books (including "Mystery"), but it lacks the actual product listings and their prices.  To find price details, you'd need to examine the HTML of pages linked from this navigation, such as the links under the "Mystery" category.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/mystery_3/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/mystery_3/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 5: https://books.toscrape.com/catalogue/category/books/historical-fiction_4/index.html ---
+Screenshot saved: screenshots_general_test\page_5_index_html.png
+
+--- AI Content Analysis ---
+The provided HTML snippet does not contain any price information.  It shows a website's navigation structure, specifically a list of book categories including "Historical Fiction," but no book prices are present in this excerpt.  To find price details, you would need to examine the HTML content of the individual book pages linked from this category page.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/historical-fiction_4/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/historical-fiction_4/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 6: https://books.toscrape.com/catalogue/category/books/sequential-art_5/index.html ---
+Screenshot saved: screenshots_general_test\page_6_index_html.png
+
+--- AI Content Analysis ---
+This HTML snippet does not contain the price of "Sequential Art".  The provided text is a navigation menu and a site header; it shows categories of books but not individual book details, including pricing.  To find the price, you would need to access the actual product page for "Sequential Art"  on the website.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/sequential-art_5/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/sequential-art_5/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 7: https://books.toscrape.com/catalogue/category/books/classics_6/index.html ---
+Screenshot saved: screenshots_general_test\page_7_index_html.png
+
+--- AI Content Analysis ---
+This HTML snippet only shows categories of books and their links.  It does *not* contain any pricing information for any books.  To get price details, you would need to scrape the content of the individual book pages linked from this category page.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/classics_6/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/classics_6/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 8: https://books.toscrape.com/catalogue/category/books/philosophy_7/index.html ---
+Screenshot saved: screenshots_general_test\page_8_index_html.png
+
+--- AI Content Analysis ---
+The provided HTML snippet does not contain any price information.  It only shows a website's navigation structure, indicating categories of books including a "Philosophy" section. To find prices, you would need to examine the HTML content of the pages linked within this navigation (e.g., the pages under the various book categories).  The price details are not present in this excerpt.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/philosophy_7/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/philosophy_7/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 9: https://books.toscrape.com/catalogue/category/books/romance_8/index.html ---
+Screenshot saved: screenshots_general_test\page_9_index_html.png
+
+--- AI Content Analysis ---
+The provided HTML does not contain any price information.  It's a navigation page showing categories of books,  but no individual book details (including price) are present in this snippet.  To find price details, you would need to examine the HTML content of the individual book pages linked from this navigation.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/romance_8/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/romance_8/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 10: https://books.toscrape.com/catalogue/category/books/womens-fiction_9/index.html ---
+Screenshot saved: screenshots_general_test\page_10_index_html.png
+
+--- AI Content Analysis ---
+This HTML snippet shows a website's navigation and categories, but it does *not* contain any pricing information for books.  To find prices, you would need to examine the HTML content of the individual book pages linked from this navigation.  This provided HTML only shows the categorization of books, not their individual prices.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/womens-fiction_9/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/womens-fiction_9/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 11: https://books.toscrape.com/catalogue/category/books/fiction_10/index.html ---
+Screenshot saved: screenshots_general_test\page_11_index_html.png
+
+--- AI Content Analysis ---
+This HTML snippet does not contain any price information.  It's a navigation menu for a bookstore website showing different categories of books ("Fiction", "Travel", "Mystery", etc.).  To find prices, you would need to look at the HTML of the individual book pages linked from this menu.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/fiction_10/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/fiction_10/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 12: https://books.toscrape.com/catalogue/category/books/childrens_11/index.html ---
+Screenshot saved: screenshots_general_test\page_12_index_html.png
+
+--- AI Content Analysis ---
+The provided HTML does not contain any price information.  It's a navigation page showing categories of books. To find prices, you would need to follow the links to individual book pages within the provided categories.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/childrens_11/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/childrens_11/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 13: https://books.toscrape.com/catalogue/category/books/religion_12/index.html ---
+Screenshot saved: screenshots_general_test\page_13_index_html.png
+
+--- AI Content Analysis ---
+The provided HTML does not contain any price information.  It's a navigation page showing categories of books, but not the price of any individual book within the "Religion" category or any other category.  To find prices, you would need to navigate to pages containing individual book listings.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/religion_12/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/religion_12/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 14: https://books.toscrape.com/catalogue/category/books/nonfiction_13/index.html ---
+Screenshot saved: screenshots_general_test\page_14_index_html.png
+
+--- AI Content Analysis ---
+This HTML snippet only shows a navigation menu for a bookstore website.  It lists categories of books ("Travel," "Mystery," "Nonfiction," etc.) but does **not** contain any price information for any book.  To find prices, you would need to follow one of the links in the navigation to a page showing individual books.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/nonfiction_13/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/nonfiction_13/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 15: https://books.toscrape.com/catalogue/category/books/music_14/index.html ---
+Screenshot saved: screenshots_general_test\page_15_index_html.png
+
+--- AI Content Analysis ---
+The provided HTML does not contain any price information.  It's a navigational page showing categories of books, including a "Music" category, but there are no product listings with prices.  To find price details, you would need to navigate to the pages linked within this HTML (e.g., the links under the "Music" category).
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/music_14/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/music_14/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 16: https://books.toscrape.com/catalogue/category/books/default_15/index.html ---
+Screenshot saved: screenshots_general_test\page_16_index_html.png
+
+--- AI Content Analysis ---
+This HTML snippet does not contain any price information.  It's a navigation menu for a website selling books, showing categories but not the prices of individual books.  To find price details, you would need to examine the HTML of the individual book pages linked from this menu.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/default_15/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/default_15/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 17: https://books.toscrape.com/catalogue/category/books/science-fiction_16/index.html ---
+Screenshot saved: screenshots_general_test\page_17_index_html.png
+
+--- AI Content Analysis ---
+The provided HTML does not contain any price details.  It's a navigation menu for a bookstore website showing different book categories.  To find prices, you would need to examine the HTML content of the individual book pages linked from this menu (e.g., the pages under the "Science Fiction" category).
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/science-fiction_16/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/science-fiction_16/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 18: https://books.toscrape.com/catalogue/category/books/sports-and-games_17/index.html ---
+Screenshot saved: screenshots_general_test\page_18_index_html.png
+
+--- AI Content Analysis ---
+The provided HTML does not contain any price information.  It's a navigation menu for a bookstore website, showing categories of books, but not the price of any individual book within the "Sports and Games" category or any other category.  To find prices, you'd need to examine the HTML content of the pages linked from this navigation menu (e.g.,  the pages linked under each category in the `<a href= ... >` tags).
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/sports-and-games_17/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/sports-and-games_17/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 19: https://books.toscrape.com/catalogue/category/books/add-a-comment_18/index.html ---
+Screenshot saved: screenshots_general_test\page_19_index_html.png
+
+--- AI Content Analysis ---
+This webpage does not contain any pricing information.  It's a page for adding a comment, and shows navigation for a bookstore website ("Books to Scrape").  The price details would be found on individual book pages, not this comment submission page.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/add-a-comment_18/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/add-a-comment_18/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 20: https://books.toscrape.com/catalogue/category/books/fantasy_19/index.html ---
+Screenshot saved: screenshots_general_test\page_20_index_html.png
+
+--- AI Content Analysis ---
+This HTML only shows categories of books.  There are no prices listed in the provided snippet.  To find price details, you would need to analyze the HTML content of the individual book pages linked within this category page.  The provided text is a navigation menu and does not contain any price information.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/fantasy_19/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/fantasy_19/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 21: https://books.toscrape.com/catalogue/category/books/new-adult_20/index.html ---
+Screenshot saved: screenshots_general_test\page_21_index_html.png
+
+--- AI Content Analysis ---
+This HTML snippet does not contain any price information.  It's a navigation menu for a website selling books, showing categories but not the prices of individual books within those categories.  To find prices, you would need to navigate to the pages linked within this menu (e.g., the links under each category in the sidebar).
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/new-adult_20/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/new-adult_20/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 22: https://books.toscrape.com/catalogue/category/books/young-adult_21/index.html ---
+Screenshot saved: screenshots_general_test\page_22_index_html.png
+
+--- AI Content Analysis ---
+This HTML snippet provides a website navigation structure and categories but contains **no price information** for any books.  To find prices, you would need to examine the HTML content of the pages linked from this navigation (e.g., the pages linked under the various book categories).  The provided HTML only shows the category structure of a bookstore.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/young-adult_21/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/young-adult_21/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 23: https://books.toscrape.com/catalogue/category/books/science_22/index.html ---
+Screenshot saved: screenshots_general_test\page_23_index_html.png
+
+--- AI Content Analysis ---
+The provided HTML snippet does *not* contain price information for any books.  It only shows a category page for "Science" books and links to other book categories.  To find prices, you would need to examine the HTML of the pages linked from this category page (e.g., the individual book pages).
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/science_22/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/science_22/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 24: https://books.toscrape.com/catalogue/category/books/poetry_23/index.html ---
+Screenshot saved: screenshots_general_test\page_24_index_html.png
+
+--- AI Content Analysis ---
+This HTML snippet only shows a navigation menu and doesn't contain any price information for poetry books.  To find price details, you'd need to provide the HTML content that displays the actual book listings, which would likely include elements like `<p class="price_color">` or similar containing the price of each book.  The provided text is only the site's navigation structure.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/poetry_23/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/poetry_23/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 25: https://books.toscrape.com/catalogue/category/books/paranormal_24/index.html ---
+Screenshot saved: screenshots_general_test\page_25_index_html.png
+
+--- AI Content Analysis ---
+The provided HTML does not contain any price information for the "Paranormal" category or any specific book.  The code shows a website navigation structure with a list of book categories, but no pricing details are present in this snippet.  To find price details, you would need to examine the HTML content of the pages linked from this navigation, specifically the individual book pages within the "Paranormal" category.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/paranormal_24/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/paranormal_24/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 26: https://books.toscrape.com/catalogue/category/books/art_25/index.html ---
+Screenshot saved: screenshots_general_test\page_26_index_html.png
+
+--- AI Content Analysis ---
+This HTML snippet does not contain any price information.  It's a navigation menu for a website selling books, showing different categories.  To find prices, you would need to examine the HTML of the individual book pages linked from this menu.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/art_25/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/art_25/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 27: https://books.toscrape.com/catalogue/category/books/psychology_26/index.html ---
+Screenshot saved: screenshots_general_test\page_27_index_html.png
+
+--- AI Content Analysis ---
+This HTML snippet does not contain any price information.  It's a navigation menu for a bookstore website showing categories of books, but no prices are listed for any of the books within those categories.  To find price details, you would need to examine the HTML of the individual book pages linked from this menu.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/psychology_26/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/psychology_26/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 28: https://books.toscrape.com/catalogue/category/books/autobiography_27/index.html ---
+Screenshot saved: screenshots_general_test\page_28_index_html.png
+
+--- AI Content Analysis ---
+The provided HTML does not contain the price of the book "Autobiography".  The snippet shows a page structure and navigation, including a list of book categories, but no pricing information is present within the given text.  To find the price, you would need to examine the complete HTML source code of the actual webpage, likely looking for elements with class names or IDs related to price or cost.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/autobiography_27/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/autobiography_27/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 29: https://books.toscrape.com/catalogue/category/books/parenting_28/index.html ---
+Screenshot saved: screenshots_general_test\page_29_index_html.png
+
+--- AI Content Analysis ---
+The provided HTML does not contain any price information for books in the "Parenting" category or any other category.  The code shows a website structure with categories and links, but it's missing the actual product listings with pricing details.  To find price details, you would need to scrape the content from the pages linked within this HTML.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/parenting_28/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/parenting_28/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 30: https://books.toscrape.com/catalogue/category/books/adult-fiction_29/index.html ---
+Screenshot saved: screenshots_general_test\page_30_index_html.png
+
+--- AI Content Analysis ---
+This HTML snippet shows a website's navigation and category listings.  It does *not* contain any pricing information for books.  The page displays categories of books (Adult Fiction, Travel, Mystery, etc.) but not the prices of individual books within those categories. To find price details, you would need to access the individual book pages linked from this category page.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/adult-fiction_29/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/adult-fiction_29/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 31: https://books.toscrape.com/catalogue/category/books/humor_30/index.html ---
+Screenshot saved: screenshots_general_test\page_31_index_html.png
+
+--- AI Content Analysis ---
+This HTML does not contain any pricing information.  It's a navigation page for a website selling books; it shows categories but not the prices of any individual books.  To find prices, you would need to follow one of the links to a specific book's page.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/humor_30/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/humor_30/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 32: https://books.toscrape.com/catalogue/category/books/horror_31/index.html ---
+Screenshot saved: screenshots_general_test\page_32_index_html.png
+
+--- AI Content Analysis ---
+This HTML snippet only shows a navigation menu for a bookstore website.  It lists various book categories, including "Horror," but it provides **no price information** for any books.  To get price details, you'd need to examine the HTML content of the individual book pages linked from this navigation.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/horror_31/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/horror_31/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 33: https://books.toscrape.com/catalogue/category/books/history_32/index.html ---
+Screenshot saved: screenshots_general_test\page_33_index_html.png
+
+--- AI Content Analysis ---
+The provided HTML does not contain any price information.  It's a navigation page showing categories of books, not a page displaying individual books with their prices.  To find price details, you would need to follow the links to the individual book pages within the site.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/history_32/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/history_32/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 34: https://books.toscrape.com/catalogue/category/books/food-and-drink_33/index.html ---
+Screenshot saved: screenshots_general_test\page_34_index_html.png
+
+--- AI Content Analysis ---
+The provided HTML does not contain any price details for books in the "Food and Drink" category.  The HTML shows a navigation structure and categories but no product listings with prices.  To find price details, you would need to examine the HTML content from the actual product pages linked within this navigation.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/food-and-drink_33/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/food-and-drink_33/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 35: https://books.toscrape.com/catalogue/category/books/christian-fiction_34/index.html ---
+Screenshot saved: screenshots_general_test\page_35_index_html.png
+
+--- AI Content Analysis ---
+This HTML only shows a website's navigation and categories.  There is no pricing information for books within the provided text.  The snippet shows a menu of book categories, including "Christian Fiction," but doesn't list the books themselves, let alone their prices.  To find price details, you would need to analyze the HTML content of the pages linked from this navigation, specifically the pages under the "Christian Fiction" category.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/christian-fiction_34/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/christian-fiction_34/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 36: https://books.toscrape.com/catalogue/category/books/business_35/index.html ---
+Screenshot saved: screenshots_general_test\page_36_index_html.png
+
+--- AI Content Analysis ---
+This HTML snippet only shows a navigation menu for a bookstore website.  It does *not* contain any pricing information for books in the "Business" category or any other category.  To get price details, you'd need to scrape the actual product pages linked from this navigation.  This HTML only provides the structure and links to where that information *might* be located.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/business_35/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/business_35/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 37: https://books.toscrape.com/catalogue/category/books/biography_36/index.html ---
+Screenshot saved: screenshots_general_test\page_37_index_html.png
+
+--- AI Content Analysis ---
+This HTML snippet does not contain any pricing information.  It's a navigation menu for a website selling books, showing different book categories.  To find prices, you would need to examine the HTML content of individual book pages linked from this navigation.  This snippet only provides the structure and links to the various book categories, not the prices themselves.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/biography_36/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/biography_36/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 38: https://books.toscrape.com/catalogue/category/books/thriller_37/index.html ---
+Screenshot saved: screenshots_general_test\page_38_index_html.png
+
+--- AI Content Analysis ---
+This HTML snippet does not contain any price information.  It shows a website navigation structure and category listings for a bookstore, but no product details (including prices) are present in the provided text.  To find price details, you'd need to examine the HTML content of individual book pages linked from this navigation.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/thriller_37/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/thriller_37/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 39: https://books.toscrape.com/catalogue/category/books/contemporary_38/index.html ---
+Screenshot saved: screenshots_general_test\page_39_index_html.png
+
+--- AI Content Analysis ---
+This HTML snippet only shows categories of books and navigation; it does *not* contain any pricing information for individual books or the "Contemporary" category.  To find price details, you would need to analyze the content of the pages linked within this navigation, specifically those under the "Contemporary" category.  The provided HTML only gives the website structure and links, not the product details.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/contemporary_38/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/contemporary_38/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 40: https://books.toscrape.com/catalogue/category/books/spirituality_39/index.html ---
+Screenshot saved: screenshots_general_test\page_40_index_html.png
+
+--- AI Content Analysis ---
+This HTML snippet only shows a website's navigation and category structure.  It does *not* contain any pricing information for books in the "Spirituality" category or any other category.  To find price details, you would need to examine the HTML of the individual book pages linked from this navigation.  This HTML only provides the links to those pages, not the prices themselves.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/spirituality_39/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/spirituality_39/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 41: https://books.toscrape.com/catalogue/category/books/academic_40/index.html ---
+Screenshot saved: screenshots_general_test\page_41_index_html.png
+
+--- AI Content Analysis ---
+The provided HTML does not contain any price information for the "Academic" category or any books within it.  The code shows a navigation menu for different book categories, but no prices are listed anywhere in the snippet.  To find price details, you would need to examine the HTML content of the individual book pages linked from this navigation.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/academic_40/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/academic_40/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 42: https://books.toscrape.com/catalogue/category/books/self-help_41/index.html ---
+Screenshot saved: screenshots_general_test\page_42_index_html.png
+
+--- AI Content Analysis ---
+This HTML content shows a webpage catalog of books,  but it does *not* contain any price information for the books.  The page shows categories and links to other pages, but not the price of any specific book.  To find price details, you would need to follow the links to individual book pages within this site.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/self-help_41/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/self-help_41/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 43: https://books.toscrape.com/catalogue/category/books/historical_42/index.html ---
+Screenshot saved: screenshots_general_test\page_43_index_html.png
+
+--- AI Content Analysis ---
+This HTML snippet does not contain any price information.  It's a navigation menu for a website selling books, showing categories and sub-categories.  To find prices, you would need to examine the HTML content of the pages linked from this navigation (e.g.,  `../historical-fiction_4/index.html`, `../history_32/index.html`, etc.).  The price details are not present in this excerpt.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/historical_42/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/historical_42/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 44: https://books.toscrape.com/catalogue/category/books/christian_43/index.html ---
+Screenshot saved: screenshots_general_test\page_44_index_html.png
+
+--- AI Content Analysis ---
+The provided HTML does not contain any price information.  It only shows a navigational structure for a website selling books, with a category listing for "Christian" books.  To find prices, you would need to examine the HTML of the individual book pages linked from this category page.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/christian_43/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/christian_43/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 45: https://books.toscrape.com/catalogue/category/books/suspense_44/index.html ---
+Screenshot saved: screenshots_general_test\page_45_index_html.png
+
+--- AI Content Analysis ---
+The provided HTML does not contain any price information.  The page shows a list of book categories, including "Suspense," but there are no prices listed for any books within that category or any other.  To find price details, you would need to examine the HTML of the individual book pages linked within this category listing.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/suspense_44/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/suspense_44/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 46: https://books.toscrape.com/catalogue/category/books/short-stories_45/index.html ---
+Screenshot saved: screenshots_general_test\page_46_index_html.png
+
+--- AI Content Analysis ---
+This HTML snippet does not contain any price information.  It's a navigation menu for a bookstore website showing categories of books. To find prices, you would need to examine the HTML content of the individual book pages linked from this menu.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/short-stories_45/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/short-stories_45/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 47: https://books.toscrape.com/catalogue/category/books/novels_46/index.html ---
+Screenshot saved: screenshots_general_test\page_47_index_html.png
+
+--- AI Content Analysis ---
+This HTML snippet shows a website's navigation and categorization of books, but it **does not contain any price information**.  The provided text only lists book categories and links to different sections of the website.  To find prices, you would need to examine the HTML content of the individual book pages linked from this navigation.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/novels_46/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/novels_46/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 48: https://books.toscrape.com/catalogue/category/books/health_47/index.html ---
+Screenshot saved: screenshots_general_test\page_48_index_html.png
+
+--- AI Content Analysis ---
+The provided HTML does not contain any price information.  It's a navigational page showing categories of books, but not the prices of individual books within those categories.  To find price details, you would need to navigate to the pages of individual books linked from this page.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/health_47/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/health_47/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 49: https://books.toscrape.com/catalogue/category/books/politics_48/index.html ---
+Screenshot saved: screenshots_general_test\page_49_index_html.png
+
+--- AI Content Analysis ---
+The provided HTML content does *not* contain any price information for books.  It only shows a navigation menu with categories of books.  To find prices, you would need to examine the HTML content of the individual book pages linked from this navigation.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/politics_48/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/politics_48/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 50: https://books.toscrape.com/catalogue/category/books/cultural_49/index.html ---
+Screenshot saved: screenshots_general_test\page_50_index_html.png
+
+--- AI Content Analysis ---
+The provided HTML does not contain any price information.  It's a navigation page showing categories of books, but not the price of any individual book.  To find prices, you would need to examine the HTML of the individual book pages linked from this navigation.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/cultural_49/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/cultural_49/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 51: https://books.toscrape.com/catalogue/category/books/erotica_50/index.html ---
+Screenshot saved: screenshots_general_test\page_51_index_html.png
+
+--- AI Content Analysis ---
+The provided HTML does not contain any price information.  It's a navigation page showing categories of books; the prices would be found on the individual book pages linked from this menu.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/erotica_50/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/erotica_50/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 52: https://books.toscrape.com/catalogue/category/books/crime_51/index.html ---
+Screenshot saved: screenshots_general_test\page_52_index_html.png
+
+--- AI Content Analysis ---
+The provided HTML does not contain any price information.  It's a navigation page showing categories of books. To find prices, you would need to follow the links to individual book pages within the site.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books/crime_51/index.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books/crime_51/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 53: https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html ---
+Screenshot saved: screenshots_general_test\page_53_index_html.png
+
+--- AI Content Analysis ---
+The price of "A Light in the Attic" is £51.77.  This price includes tax, as the price excluding tax is also listed as £51.77, with a tax of £0.00.
+
+
+--- Testing Page 54: https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html ---
+Screenshot saved: screenshots_general_test\page_54_index_html.png
+
+--- AI Content Analysis ---
+The price of "Tipping the Velvet" is £53.74.  This price includes tax, as the tax amount shown is £0.00.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html ---
+Attempting to submit form: form_0
+
+--- AI Analysis: After Form Submission ---
+The price of "Tipping the Velvet" is £53.74.  This price is listed both excluding and including tax, with the tax itself being £0.00.
+
+
+--- Testing Page 55: https://books.toscrape.com/catalogue/soumission_998/index.html ---
+Screenshot saved: screenshots_general_test\page_55_index_html.png
+
+--- AI Content Analysis ---
+The price of the book "Soumission" is **£50.10**.  This price includes tax, as the tax amount is listed as £0.00.  The page also notes that this is a demo website and prices are randomly assigned.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/soumission_998/index.html ---
+Attempting to submit form: form_0
+
+--- AI Analysis: After Form Submission ---
+The price of the book "Soumission" is **£50.10**.  This price is shown both excluding and including tax, with the tax amount being £0.00.
+
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/soumission_998/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 56: https://books.toscrape.com/catalogue/sharp-objects_997/index.html ---
+Screenshot saved: screenshots_general_test\page_56_index_html.png
+
+--- AI Content Analysis ---
+The price of "Sharp Objects" is **£47.82**.  This price includes tax, as the provided HTML shows that tax is £0.00.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/sharp-objects_997/index.html ---
+Attempting to submit form: form_0
+
+--- AI Analysis: After Form Submission ---
+The price of "Sharp Objects" is **£47.82**.  This price is listed both excluding and including tax, as the tax amount is £0.00.
+
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/sharp-objects_997/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 57: https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html ---
+Screenshot saved: screenshots_general_test\page_57_index_html.png
+
+--- AI Content Analysis ---
+The price of "Sapiens: A Brief History of Humankind" is £54.23.  This price is shown both excluding and including tax, with tax itself listed as £0.00.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html ---
+Attempting to submit form: form_0
+
+--- AI Analysis: After Form Submission ---
+The price of "Sapiens: A Brief History of Humankind" is £54.23.  This price is shown both excluding and including tax, with the tax itself being £0.00.
+
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 58: https://books.toscrape.com/catalogue/the-requiem-red_995/index.html ---
+Screenshot saved: screenshots_general_test\page_58_index_html.png
+
+--- AI Content Analysis ---
+The price of "The Requiem Red" is £22.65.  This is stated multiple times in the provided HTML, both as the price excluding and including tax (the tax is £0.00).
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/the-requiem-red_995/index.html ---
+Attempting to submit form: form_0
+
+--- AI Analysis: After Form Submission ---
+The price of "The Requiem Red" is £22.65.  This price is shown both excluding and including tax, with tax being £0.00.
+
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/the-requiem-red_995/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 59: https://books.toscrape.com/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html ---
+Screenshot saved: screenshots_general_test\page_59_index_html.png
+
+--- AI Content Analysis ---
+The price of "The Dirty Little Secrets of Getting Your Dream Job" is £33.34.  This price is shown both excluding and including tax, with the tax amount being £0.00.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html ---
+Attempting to submit form: form_0
+
+--- AI Analysis: After Form Submission ---
+The price of "The Dirty Little Secrets of Getting Your Dream Job" is **£33.34**.  This price is shown as both exclusive and inclusive of tax, with tax itself listed as £0.00.
+
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 60: https://books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html ---
+Screenshot saved: screenshots_general_test\page_60_index_html.png
+
+--- AI Content Analysis ---
+The price of "The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull" is £17.93.  This price is shown both excluding and including tax, with tax being £0.00.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html ---
+Attempting to submit form: form_0
+
+--- AI Analysis: After Form Submission ---
+The price of "The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull" is £17.93.  This price is shown both excluding and including tax, with the tax itself being £0.00.
+
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 61: https://books.toscrape.com/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html ---
+Screenshot saved: screenshots_general_test\page_61_index_html.png
+
+--- AI Content Analysis ---
+The price of "The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics" is £22.60.  This price includes tax, as the page shows  Price (incl. tax) as £22.60 and Tax as £0.00.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html ---
+Attempting to submit form: form_0
+
+--- AI Analysis: After Form Submission ---
+The price of "The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics" is £22.60.  This price includes tax, as the page shows  Price (incl. tax): £22.60 and Tax: £0.00.
+
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 62: https://books.toscrape.com/catalogue/the-black-maria_991/index.html ---
+Screenshot saved: screenshots_general_test\page_62_index_html.png
+
+--- AI Content Analysis ---
+The price of "The Black Maria" is **£52.15**.  This price is shown both as the price excluding tax and including tax, as the tax is listed as £0.00.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/the-black-maria_991/index.html ---
+Attempting to submit form: form_0
+
+--- AI Analysis: After Form Submission ---
+The price of "The Black Maria" is **£52.15**.  This price is listed as both exclusive and inclusive of tax, with tax shown as £0.00.  The website includes a warning that prices are randomly assigned and not real.
+
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/the-black-maria_991/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 63: https://books.toscrape.com/catalogue/starving-hearts-triangular-trade-trilogy-1_990/index.html ---
+Screenshot saved: screenshots_general_test\page_63_index_html.png
+
+--- AI Content Analysis ---
+The price of "Starving Hearts (Triangular Trade Trilogy, #1)" is £13.99.  This price includes tax, as the tax amount listed is £0.00.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/starving-hearts-triangular-trade-trilogy-1_990/index.html ---
+Attempting to submit form: form_0
+
+--- AI Analysis: After Form Submission ---
+The price of "Starving Hearts (Triangular Trade Trilogy, #1)" is £13.99.  This price is shown as both excluding and including tax, with tax being £0.00.
+
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/starving-hearts-triangular-trade-trilogy-1_990/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 64: https://books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html ---
+Screenshot saved: screenshots_general_test\page_64_index_html.png
+
+--- AI Content Analysis ---
+The price of Shakespeare's Sonnets is £20.66.  This price includes tax, and there is no additional tax listed.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html ---
+Attempting to submit form: form_0
+
+--- AI Analysis: After Form Submission ---
+The price of Shakespeare's Sonnets is £20.66.  This price includes tax, as the tax amount listed is £0.00.
+
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 65: https://books.toscrape.com/catalogue/set-me-free_988/index.html ---
+Screenshot saved: screenshots_general_test\page_65_index_html.png
+
+--- AI Content Analysis ---
+The price of "Set Me Free" is £17.46.  This price is shown both excluding and including tax, with tax being £0.00.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/set-me-free_988/index.html ---
+Attempting to submit form: form_0
+
+--- AI Analysis: After Form Submission ---
+The price of "Set Me Free" is £17.46.  This price is shown both as the price excluding tax and including tax, with tax listed as £0.00.
+
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/set-me-free_988/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 66: https://books.toscrape.com/catalogue/scott-pilgrims-precious-little-life-scott-pilgrim-1_987/index.html ---
+Screenshot saved: screenshots_general_test\page_66_index_html.png
+
+--- AI Content Analysis ---
+The price of "Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)" is **£52.29**.  This price is shown both excluding and including tax, with tax being listed as £0.00.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/scott-pilgrims-precious-little-life-scott-pilgrim-1_987/index.html ---
+Attempting to submit form: form_0
+
+--- AI Analysis: After Form Submission ---
+The price of "Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)" is £52.29.  This price includes tax, as the provided text shows both the price excluding and including tax as £52.29 and tax as £0.00.  Note that the website itself states that the prices are randomly assigned and not real.
+
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/scott-pilgrims-precious-little-life-scott-pilgrim-1_987/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 67: https://books.toscrape.com/catalogue/rip-it-up-and-start-again_986/index.html ---
+Screenshot saved: screenshots_general_test\page_67_index_html.png
+
+--- AI Content Analysis ---
+The price of "Rip it Up and Start Again" is **£35.02**.  This price is shown both excluding and including tax, with tax being £0.00.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/rip-it-up-and-start-again_986/index.html ---
+Attempting to submit form: form_0
+
+--- AI Analysis: After Form Submission ---
+The price of "Rip it Up and Start Again" is **£35.02**.  This price includes tax, as the tax amount listed is £0.00.
+
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/rip-it-up-and-start-again_986/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 68: https://books.toscrape.com/catalogue/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html ---
+Screenshot saved: screenshots_general_test\page_68_index_html.png
+
+--- AI Content Analysis ---
+The price of "Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991" is £57.25.  This is shown multiple times on the page, both as the main price and as the price (excluding and including tax) in the product information table.  Note that the website states the prices are randomly assigned for demo purposes.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html ---
+Attempting to submit form: form_0
+
+--- AI Analysis: After Form Submission ---
+The price of "Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991" is £57.25.  This price includes tax, as the tax amount listed is £0.00.
+
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 69: https://books.toscrape.com/catalogue/olio_984/index.html ---
+Screenshot saved: screenshots_general_test\page_69_index_html.png
+
+--- AI Content Analysis ---
+The price of "Olio" is £23.88.  This price is shown both excluding and including tax, with tax being £0.00.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/olio_984/index.html ---
+Attempting to submit form: form_0
+
+--- AI Analysis: After Form Submission ---
+The price of "Olio" is £23.88.  This price is shown both exclusive and inclusive of tax, with the tax itself being listed as £0.00.
+
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/olio_984/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 70: https://books.toscrape.com/catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html ---
+Screenshot saved: screenshots_general_test\page_70_index_html.png
+
+--- AI Content Analysis ---
+The price of "Mesaerion: The Best Science Fiction Stories 1800-1849" is **£37.59**.  This price includes tax, as the tax amount listed is £0.00.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html ---
+Attempting to submit form: form_0
+
+--- AI Analysis: After Form Submission ---
+The price of "Mesaerion: The Best Science Fiction Stories 1800-1849" is £37.59.  This is stated both as the price excluding tax and including tax, with tax itself listed as £0.00.
+
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 71: https://books.toscrape.com/catalogue/libertarianism-for-beginners_982/index.html ---
+Screenshot saved: screenshots_general_test\page_71_index_html.png
+
+--- AI Content Analysis ---
+The price of "Libertarianism for Beginners" is £51.33.  This price includes tax, as the tax amount listed is £0.00.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/libertarianism-for-beginners_982/index.html ---
+Attempting to submit form: form_0
+
+--- AI Analysis: After Form Submission ---
+The price of "Libertarianism for Beginners" is **£51.33**.  This price is shown both excluding and including tax, as the tax is listed as £0.00.
+
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/libertarianism-for-beginners_982/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 72: https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html ---
+Screenshot saved: screenshots_general_test\page_72_index_html.png
+
+--- AI Content Analysis ---
+The price of "It's Only the Himalayas" is £45.17.  This is stated multiple times in the provided HTML, both including and excluding tax (which is £0.00).
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html ---
+Attempting to submit form: form_0
+
+--- AI Analysis: After Form Submission ---
+The price of "It's Only the Himalayas" is £45.17.  This price includes tax, as the page shows a tax of £0.00.
+
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 73: https://books.toscrape.com/catalogue/page-2.html ---
+Screenshot saved: screenshots_general_test\page_73_page-2_html.png
+
+--- AI Content Analysis ---
+The provided HTML does not contain any price information.  It only shows categories of books. To find prices, you would need to scrape the individual product pages linked from this catalog page.  The price data is not present in this snippet.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/page-2.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/page-2.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 74: https://books.toscrape.com/catalogue/category/books_1/page-2.html ---
+Screenshot saved: screenshots_general_test\page_74_page-2_html.png
+
+--- AI Content Analysis ---
+This HTML snippet only shows a catalog of book categories.  There are no prices listed anywhere in the provided text.  To find price details, you would need to examine the content of the individual book pages linked from this catalog (e.g.,  `../books/travel_2/index.html`, `../books/mystery_3/index.html`, etc.).  The provided HTML only gives the structure of the website's book category navigation.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/category/books_1/page-2.html ---
+WARN: No explicit submit button found for form form_0. Skipping submission.
+WARN: Could not find clickable submit button for form form_0.
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/category/books_1/page-2.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 75: https://books.toscrape.com/catalogue/full-moon-over-noahs-ark-an-odyssey-to-mount-ararat-and-beyond_811/index.html ---
+Screenshot saved: screenshots_general_test\page_75_index_html.png
+
+--- AI Content Analysis ---
+The price of "Full Moon over Noah’s Ark: An Odyssey to Mount Ararat and Beyond" is £49.43.  This price includes tax, as the page explicitly states that the price (incl. tax) and price (excl. tax) are both £49.43, with £0.00 tax.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/full-moon-over-noahs-ark-an-odyssey-to-mount-ararat-and-beyond_811/index.html ---
+Attempting to submit form: form_0
+
+--- AI Analysis: After Form Submission ---
+The price of "Full Moon over Noah’s Ark: An Odyssey to Mount Ararat and Beyond" is £49.43.  This price includes tax, as the tax amount listed is £0.00.
+
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/full-moon-over-noahs-ark-an-odyssey-to-mount-ararat-and-beyond_811/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 76: https://books.toscrape.com/catalogue/see-america-a-celebration-of-our-national-parks-treasured-sites_732/index.html ---
+Screenshot saved: screenshots_general_test\page_76_index_html.png
+
+--- AI Content Analysis ---
+The price of "See America: A Celebration of Our National Parks &amp; Treasured Sites" is **£48.87**.  This is stated both as the price excluding and including tax, as the tax is listed as £0.00.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/see-america-a-celebration-of-our-national-parks-treasured-sites_732/index.html ---
+Attempting to submit form: form_0
+
+--- AI Analysis: After Form Submission ---
+The price of "See America: A Celebration of Our National Parks &amp; Treasured Sites" is **£48.87**.  The website notes that this is a demo site with randomly assigned prices, so this should not be considered a real price.
+
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/see-america-a-celebration-of-our-national-parks-treasured-sites_732/index.html: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x01032061]
+	(No symbol) [0x01031140]
+	(No symbol) [0x01027880]
+	(No symbol) [0x0102795C]
+	(No symbol) [0x01025D81]
+	(No symbol) [0x01029335]
+	(No symbol) [0x010AF531]
+	(No symbol) [0x0108D29C]
+	(No symbol) [0x010AE61B]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- Testing Page 77: https://books.toscrape.com/catalogue/vagabonding-an-uncommon-guide-to-the-art-of-long-term-world-travel_552/index.html ---
+Screenshot saved: screenshots_general_test\page_77_index_html.png
+
+--- AI Content Analysis ---
+The price of "Vagabonding: An Uncommon Guide to the Art of Long-Term World Travel" is **£36.94**.  This price includes tax, as the page shows £0.00 for tax.
+
+
+--- Testing Form: form_0 on https://books.toscrape.com/catalogue/vagabonding-an-uncommon-guide-to-the-art-of-long-term-world-travel_552/index.html ---
+Attempting to submit form: form_0
+
+--- AI Analysis: After Form Submission ---
+ERROR: Failed to test form form_0 due to: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x010205D3]
+	(No symbol) [0x0100FE20]
+	(No symbol) [0x0102DD1F]
+	(No symbol) [0x01093E8C]
+	(No symbol) [0x010ADF19]
+	(No symbol) [0x0108D096]
+	(No symbol) [0x0105C840]
+	(No symbol) [0x0105D6A4]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	GetHandleVerifier [0x01207458+92440]
+	GetHandleVerifier [0x01207600+92864]
+	GetHandleVerifier [0x011F1FF0+5296]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+ERROR: An unexpected error occurred while testing https://books.toscrape.com/catalogue/vagabonding-an-uncommon-guide-to-the-art-of-long-term-world-travel_552/index.html: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x0102044E]
+	(No symbol) [0x0105BB08]
+	(No symbol) [0x0108D156]
+	(No symbol) [0x01088C22]
+	(No symbol) [0x010881B6]
+	(No symbol) [0x00FF36C5]
+	(No symbol) [0x00FF3C1E]
+	(No symbol) [0x00FF40AD]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	(No symbol) [0x00FF3390]
+	(No symbol) [0x00FF2B9D]
+	GetHandleVerifier [0x0157877C+3701820]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+
+
+--- FATAL ERROR DURING ENTIRE TEST RUN: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x011FFC03+61635]
+	GetHandleVerifier [0x011FFC44+61700]
+	(No symbol) [0x0102044E]
+	(No symbol) [0x0105BB08]
+	(No symbol) [0x0108D156]
+	(No symbol) [0x01088C22]
+	(No symbol) [0x010881B6]
+	(No symbol) [0x00FF36C5]
+	(No symbol) [0x00FF3C1E]
+	(No symbol) [0x00FF40AD]
+	GetHandleVerifier [0x01484523+2701795]
+	GetHandleVerifier [0x0147FCA6+2683238]
+	GetHandleVerifier [0x0149A9EE+2793134]
+	GetHandleVerifier [0x012168C5+155013]
+	GetHandleVerifier [0x0121CFAD+181357]
+	(No symbol) [0x00FF3390]
+	(No symbol) [0x00FF2B9D]
+	GetHandleVerifier [0x0157877C+3701820]
+	BaseThreadInitThunk [0x762C5D49+25]
+	RtlInitializeExceptionChain [0x7756CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7756CE91+561]
+ ---

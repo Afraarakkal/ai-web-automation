@@ -1,0 +1,5 @@
+
+--- Page 1: https://scrapepark.org/ ---
+Screenshot saved: screenshots_ai_web\page_1.png
+Summary: AI returned non-JSON
+No actions provided by AI.
